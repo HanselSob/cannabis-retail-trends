@@ -16,9 +16,10 @@ https://catalog.data.gov/dataset/cannabis-retail-sales-by-week-ending
 ### Updating Visuals
 Inserted the data into a table
 Conditional Formatting for error (present with Mode formula, as no mode exists for the column)
+Added Retail Sale and Products Sold difference columns *=ABS([@[Adult-Use Products Sold]]-[@[Medical Products Sold]])*
 
+### Tables and Graphs
 
-### Table For Descriptive Statistics
 Created a new Table at the bottom of the Data table for Mean, Median, Mode, Standard Deviation, Variance for each column
 
 | Measure              | Formula              |
@@ -30,8 +31,10 @@ Created a new Table at the bottom of the Data table for Mean, Median, Mode, Stan
 | Variance             | =VAR.P(B2:B95)      |
 
 
+Created a Line Chart for Retail Sales, Products Sold, and Average Product Prices to look at seasonal trends. For forecrasting, a linear trend line was added to show the direction of growth for products.
 
 
+Created a Pivot Table
 
 
 ## Contact
